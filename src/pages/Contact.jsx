@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Contact = () => {
+  const {form,setForm}=useState({name:'',email:'',message:''});
+  const handleChange=()=>{
+  };
+  
   return (
-    <div>
-      
-    </div>
+    <section className='relative fle'></section>
   )
 }
 
